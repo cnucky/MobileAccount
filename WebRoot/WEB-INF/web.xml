@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.mobile.servlet.logic.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddOperator</servlet-name>
+    <servlet-class>com.mobile.servlet.logic.AddOperator</servlet-class>
+  </servlet>
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckOperatorIdAjax</servlet-name>
+    <servlet-class>com.mobile.servlet.logic.CheckOperatorIdAjax</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OperatorList</servlet-name>
+    <servlet-class>com.mobile.servlet.OperatorList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OperatorModify</servlet-name>
+    <servlet-class>com.mobile.servlet.logic.OperatorModify</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MobileDao</servlet-name>
+    <servlet-class>com.mobile.dao.MobileDao</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>New_Mobiles</servlet-name>
+    <servlet-class>com.mobile.servlet.logic.New_Mobiles</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Upload_Mobiles</servlet-name>
+    <servlet-class>com.mobile.servlet.logic.Upload_Mobiles</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Business_Conf</servlet-name>
+    <servlet-class>com.mobile.servlet.logic.Business_Conf</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Business_Charge</servlet-name>
+    <servlet-class>com.mobile.servlet.logic.Business_Charge</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerManage</servlet-name>
+    <servlet-class>com.mobile.servlet.logic.CustomerManage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AccountManage</servlet-name>
+    <servlet-class>com.mobile.servlet.logic.AccountManage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AccountList</servlet-name>
+    <servlet-class>com.mobile.servlet.AccountList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserManage</servlet-name>
+    <servlet-class>com.mobile.servlet.logic.UserManage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>com.mobile.servlet.logic.Logout</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChargeList</servlet-name>
+    <servlet-class>com.mobile.servlet.ChargeList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BusinessList</servlet-name>
+    <servlet-class>com.mobile.servlet.BusinessList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddBusiness</servlet-name>
+    <servlet-class>com.mobile.servlet.logic.AddBusiness</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddCharge</servlet-name>
+    <servlet-class>com.mobile.servlet.logic.AddCharge</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddAccount</servlet-name>
+    <servlet-class>com.mobile.servlet.logic.AddAccount</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AccountModify</servlet-name>
+    <servlet-class>com.mobile.servlet.logic.AccountModify</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddOperator</servlet-name>
+    <url-pattern>/AddOperator</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OperatorList</servlet-name>
+    <url-pattern>/OperatorList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OperatorModify</servlet-name>
+    <url-pattern>/OperatorModify</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>MobileDao</servlet-name>
+    <url-pattern>/MobileDao</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>New_Mobiles</servlet-name>
+    <url-pattern>/New_Mobiles</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Upload_Mobiles</servlet-name>
+    <url-pattern>/Upload_Mobiles</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Business_Conf</servlet-name>
+    <url-pattern>/Business_Conf</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Business_Charge</servlet-name>
+    <url-pattern>/Business_Charge</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerManage</servlet-name>
+    <url-pattern>/CustomerManage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AccountManage</servlet-name>
+    <url-pattern>/AccountManage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AccountList</servlet-name>
+    <url-pattern>/AccountList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserManage</servlet-name>
+    <url-pattern>/UserManage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChargeList</servlet-name>
+    <url-pattern>/ChargeList</url-pattern>
+  </servlet-mapping>	
+  <servlet-mapping>
+    <servlet-name>BusinessList</servlet-name>
+    <url-pattern>/BusinessList</url-pattern>
+  </servlet-mapping>	
+  <servlet-mapping>
+    <servlet-name>AddBusiness</servlet-name>
+    <url-pattern>/AddBusiness</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCharge</servlet-name>
+    <url-pattern>/AddCharge</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddAccount</servlet-name>
+    <url-pattern>/AddAccount</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AccountModify</servlet-name>
+    <url-pattern>/AccountModify</url-pattern>
+  </servlet-mapping>
+
+  
+   <filter>
+   	<filter-name>AccessFilter</filter-name>
+   	<filter-class>com.mobile.filter.AccessFilter</filter-class>
+   </filter>
+  
+   <filter-mapping>
+   	<filter-name>AccessFilter</filter-name>
+   	<url-pattern>/*</url-pattern>
+   </filter-mapping>
+  
+  
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
